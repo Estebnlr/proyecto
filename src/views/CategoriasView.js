@@ -28,21 +28,6 @@ export default function CategoriasView() {
     }
   }
   
-
-  // const getCategorias = async () => {
-  //   try {
-  //     const categoria = await obtenerCategoria()
-  //     const catFiltradas = categoria.filter((cat) => cat.categorias.length > 0)
-  //     const arrCategorias = catFiltradas.map((cat) => cat.categorias).flat()
-  //     setCategorias(arrCategorias)
-  //   } catch (error) {
-  //     console.log(error)
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   getCategorias();
-  // }, [])
   
   const getCategorias = () => {
     obtenerCategoria()

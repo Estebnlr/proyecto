@@ -57,18 +57,18 @@ export default function EditarCategoriaView() {
   };
 
 
-  useEffect( () => {
+  // useEffect( () => {
     
-    const categoriaAEditar = async (e) => {
+  //   const categoriaAEditar = async (e) => {
 
-      e.preventDefault();
-      try {
-        await obtenerCategoria(idCat)       
-      } catch (error) {
-        console.log(error)
-      }
-      setInputs(categoriaAEditar)}
-  }, []);
+  //     e.preventDefault();
+  //     try {
+  //       await obtenerCategoria(idCat)       
+  //     } catch (error) {
+  //       console.log(error)
+  //     }
+  //     setInputs(categoriaAEditar)}
+  // }, []);
 
   if(loading){
     return <Cargando />
